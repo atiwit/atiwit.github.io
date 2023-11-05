@@ -13,13 +13,30 @@
     <title>Atiwit's Portfolio</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="nav justify-content-center fixed-top" id="nav">
-          <a class="nav-link" href="#first">Who I'm I</a>
-          <a class="nav-link" href="#education">Education</a>
-          <a class="nav-link" href="#port">Portfolio</a>
-        </nav>
-    <section id="first">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #ffffff;">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-center;">
+                <li class="nav-item">
+                  <a class="nav-link" href="#first">Who I'm I</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#port">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br id="first"><br><br><br><br>
+    <div class="container-fluid justify-content-center" >
+        <div id="snow" data-count="200"></div>
+    <section style="margin-top: 2em;">
             <div class="mb-5" style="max-width: 1000px;">
                 <div class="row g-5">
                   <div class="col-md-5" id="me">
@@ -35,7 +52,8 @@
               </div>
             </div>
     </section>
-    <section id="education">
+    <br id="education"><br><br><br>
+    <section>
     <div class="container">
      <h1>Education</h1><br>
      <div class="container">
@@ -76,15 +94,15 @@
       </div>
   </div>
     </section>
-
-    <section id="port">
+    <br id="port"><br><br><br>
+    <section>
+      <br>
       <div class="container">
         <h1>Portfolio</h1><br>
         <div class="container">
-
             <div class="row">
               <div class="col-12 col-md-4">
-              <div class="card" style="width: 20rem; ">
+              <div class="card" style="margin-bottom: 1rem;">
                 <img src="img/kinraid.png" class="card-img-top" style="padding: 10px;">
                 <div class="card-body">
                   <h2 class="card-title">Kinraid.com</h2>
@@ -94,7 +112,7 @@
               </div>
             </div>
             <div class="col-12 col-md-4">
-              <div class="card" style="width: 20rem;">
+              <div class="card" style="margin-bottom: 1rem;">
                 <img src="img/recinema.png" class="card-img-top" style="padding: 10px;">
                 <div class="card-body">
                   <h2 class="card-title">Recinema.store</h2>
@@ -104,7 +122,7 @@
               </div>
             </div>
               <div class="col-12 col-md-4">
-              <div class="card" style="width: 20rem;">
+              <div class="card" style="margin-bottom: 1rem;">
                 <img src="img/somnong.png" class="card-img-top" style="padding: 10px;">
                 <div class="card-body">
                   <h2 class="card-title">Somnong Admission</h2>
@@ -118,7 +136,8 @@
      </div>
     </div>
        </section>
-   
+       <script src="./pure-snow.js" defer></script>
+
 </body>
 </html>
 
