@@ -186,7 +186,7 @@
               <div class="row">
                 <div class="col-lg-7">	
                   <div class="contact">
-                    <form class="form" name="enq" method="post" action="mailto:atiwit.thon@mail.kmutt.ac.th" onsubmit="return validation();">
+                    <form class="form" name="contact" method="post" onsubmit={handleSubmit}>
                       <div class="row">
                         <div class="form-group col-md-6 " style="margin-bottom: 1rem;">
                           <input type="text" name="name" class="form-control " placeholder="Name" required="required">
@@ -217,6 +217,11 @@
        </div>
       </div>
          </section>
-
+<!-- JS-->
+ <script>
+ const handleClick = (e) => {
+  e.preventDefault();
+ window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
+}</script>
 </body>
 </html>
