@@ -144,10 +144,10 @@
     </div>
        </section>
        
-       <br id="Skills" ><br><br>
+       <br id="Skills"><br><br>
        <section>
         <br>
-        <div class="container">
+        <div class="container" >
           <h1>Skills</h1><br>
           <div class="container" style="margin-bottom: 2rem;">
             <center>
@@ -179,38 +179,36 @@
          <br id="Contact" ><br><br>
        <section>
         <br>
-        <div class="container">
-          <h1>Contact</h1><br>
-          <center>
-          <div class="container" style="margin-bottom: 2rem; align-items: center;">
-              <div class="row">
-                <div class="col-lg-7">	
-                  <div class="contact">
-                    <form class="form" name="contact" method="post" onsubmit="handleClick(event)">
-                      <div class="row">
-                        <div class="form-group col-md-6 " style="margin-bottom: 1rem;">
-                          <input type="text" name="name" class="form-control " placeholder="Name" required="required">
-                        </div>
-                        <div class="form-group col-md-6">
-                          <input type="email" name="email" class="form-control" placeholder="Email" required="required">
-                        </div>
-                        <div class="form-group col-md-12" style="margin-bottom: 1rem;">
-                          <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
-                        </div>
-                        <div class="form-group col-md-12" style="margin-bottom: 1rem;">
-                          <textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
-                        </div>
-                        <div class="col-md-12 text-center">
-                          <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-outline-dark" >Send Message</button>
-                        </div>
-                      </div>
-                    </form>
+        <div class="container d-flex justify-content-center align-items-center" style="margin-top: 5rem; margin-bottom: 10rem;">
+          <div class="row w-100 justify-content-center">
+            <div class="col-lg-6">	
+              <h1 class="text-center">Contact</h1><br>
+              <div class="contact">
+                <form class="form" name="contact" method="post" onsubmit="handleClick(event)">
+                  <div class="row">
+                    <div class="form-group col-md-6" style="margin-bottom: 1rem;">
+                      <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                    </div>
+                    <div class="form-group col-md-12" style="margin-bottom: 1rem;">
+                      <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                    </div>
+                    <div class="form-group col-md-12" style="margin-bottom: 1rem;">
+                      <textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required" style="resize: none;"></textarea>
+                    </div>
+                    <div class="col-md-12 text-center">
+                      <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-outline-dark">Send Message</button>
+                    </div>
                   </div>
-                </div>
-              </div><!--- END ROW -->
-       </div>
-       </center>
-      </div>
+                </form>
+              </div>
+            </div>
+          </div><!-- END ROW -->
+        </div>
+        
+        
          </section>
 <!-- JS-->
  <script>
